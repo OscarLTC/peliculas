@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useParams } from "react-router-dom/cjs/react-router-dom.min";
+import { useParams } from "react-router-dom";
 import { Spinner } from "../components/Spinner";
 import { getMovieImg } from "../utils/getMovieImg";
 import { get } from "../utils/httpClient";
